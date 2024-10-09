@@ -140,7 +140,6 @@ let spaceship6 = {
     }
 }; 
 
-// Write your code below
 for(let crewMember in spaceship6.crew) {
     console.log(`${crewMember}: ${spaceship6.crew[crewMember].name}`)
 };
@@ -270,10 +269,10 @@ functionality.beep();
 // < Built-in Object Methods >
 const robot7 = {
 	model: 'SAL-1000',
-  mobile: true,
-  sentient: false,
-  armor: 'Steel-plated',
-  energyLevel: 75
+    mobile: true,
+    sentient: false,
+    armor: 'Steel-plated',
+    energyLevel: 75
 };
 
 const robotKeys = Object.keys(robot7);
